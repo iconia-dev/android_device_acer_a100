@@ -43,12 +43,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.dinfo.radio=Wifi
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+TARGET_BOOTANIMATION_NAME := horizontal-1024x600
 
-PRODUCT_PACKAGES += \
-    com.android.future.usb.accessory \
-    audio.a2dp.default \
-    libaudioutils
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 $(call inherit-product, build/target/product/full_base.mk)
 
