@@ -15,7 +15,7 @@
 #
 
 # include acer t20 common
--include device/acer/t20-common/BoardConfigCommon.mk
+include device/acer/t20-common/BoardConfigCommon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := vangogh
 TARGET_NO_BOOTLOADER         := true
