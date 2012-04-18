@@ -19,6 +19,9 @@ include device/acer/t20-common/BoardConfigCommon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := vangogh
 
+# kernel (temp till source drop)
+TARGET_PREBUILT_KERNEL := device/acer/picasso/prebuilt/kernel
+
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 8388608
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 6291456
 BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 629145600
