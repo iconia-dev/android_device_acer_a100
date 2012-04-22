@@ -37,7 +37,6 @@ lib/libnvdispmgr_d.so
 lib/libnvasfparserhal.so
 lib/libnvmm.so
 lib/libnvrm_graphics.so
-lib/libasound.so
 lib/libnvomxilclient.so
 lib/libnvodm_hdmi.so
 lib/libnvmm_service.so
