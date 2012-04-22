@@ -18,6 +18,7 @@
 include device/acer/t20-common/BoardConfigCommon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := vangogh
+TARGET_OTA_ASSERT_DEVICE := vangogh,a100
 
 # kernel (temp till source drop)
 TARGET_PREBUILT_KERNEL := device/acer/picasso/prebuilt/kernel
