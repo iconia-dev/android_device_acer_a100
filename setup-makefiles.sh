@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VENDOR=acer
-DEVICE=vangogh
+DEVICE=a100
 
 OUTD=vendor/$VENDOR/$DEVICE
 BLOBMK=../../../$OUTD/$DEVICE-vendor-blobs.mk

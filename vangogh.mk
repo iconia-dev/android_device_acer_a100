@@ -53,7 +53,7 @@ $(call inherit-product, build/target/product/full_base.mk)
 $(call inherit-product, device/acer/t20-common/t20-common.mk)
 
 # inherit proprietary files
-$(call inherit-product-if-exists, vendor/acer/vangogh/vangogh-vendor.mk)
+$(call inherit-product-if-exists, vendor/acer/a100/a100-vendor.mk)
 
-PRODUCT_DEVICE := vangogh
+PRODUCT_DEVICE := a100
 PRODUCT_MODEL  := A100

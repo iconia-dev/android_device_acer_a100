@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/vangogh.mk
+    $(LOCAL_DIR)/a100.mk

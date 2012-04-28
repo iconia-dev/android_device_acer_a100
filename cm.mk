@@ -5,11 +5,11 @@ PRODUCT_RELEASE_NAME := A100
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/acer/vangogh/vangogh.mk)
+$(call inherit-product, device/acer/a100/a100.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE       := vangogh
-PRODUCT_NAME         := cm_vangogh
+PRODUCT_DEVICE       := a100
+PRODUCT_NAME         := cm_a100
 PRODUCT_BRAND        := Acer
 PRODUCT_MODEL        := A100
 PRODUCT_MANUFACTURER := Acer
