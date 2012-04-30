@@ -21,7 +21,7 @@ TARGET_BOOTLOADER_BOARD_NAME := vangogh
 TARGET_OTA_ASSERT_DEVICE := vangogh,a100
 
 # kernel (temp till source drop)
-TARGET_PREBUILT_KERNEL := device/acer/picasso/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/acer/a100/prebuilt/kernel
 
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 8388608
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 6291456
